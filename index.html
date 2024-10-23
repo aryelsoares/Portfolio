@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryel's Portfolio</title>
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- SwiperJS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    
+    <!-- Quill -->
+    <link href="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.snow.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/quill@2.0.2/dist/quill.js"></script>
+</head>
+
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="portfolio"><img height="20rem" src="images/icons/archlinux.svg" title="Arch Linux" aria-hidden="true"> Aryel's Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#about" class="active"><i class="fa fa-user" aria-hidden="true"></i> About</a>
+            <a href="#skills"><i class="fa fa-wrench" aria-hidden="true"></i> Skills</a>
+            <a href="#projects"><i class="fa fa-briefcase" aria-hidden="true"></i> Projects</a>
+            <a href="#contact"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
+        </nav>
+    </header>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h3>Hi! My Name is</h3>
+            <h1>Aryel Soares.</h1>
+            <h3>I'm a backend developer</h3>
+            <p>I am a programmer dedicated to solving complex problems through algorithms. Constantly striving
+               for improvement, I am passionate about expanding my expertise in the programming universe. My
+               focus is on learning and applying technologies related to data science, process automation, and
+               artificial intelligence. I develop projects aimed at addressing niche challenges, always working
+               to grow as an exceptional professional in the field.
+            </p>
+            <div class="about-buttons">
+                <a href="https://github.com/aryelsoares/portfolio/raw/main/data/curriculum.pdf" class="btn" title="Download CV in pdf"><i class="fa fa-book" aria-hidden="true"></i> Resume</a>
+                <a href="https://www.linkedin.com/in/aryelsoares" class="btn" title="Linkedin account of Aryel"><i class="fa fa-linkedin-square" aria-hidden="true"></i> Linkedin</a>
+                <a href="https://www.github.com/aryelsoares" class="btn" title="Github account of Aryel"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
+            </div>
+        </div>
+        <div class="about-img">
+            <img src="images/about.png" alt="Aryel">
+        </div>
+    </section>
+
+    <!-- skills section design -->
+     <section class="skills" id="skills">
+        <div class="skills-content">
+            <h2>Technical Skills</h2>
+            <div class="skills-box">
+                <h3>Backend</h3>
+                <div class="skills-list">
+                    <img id="skill-python" src="images/icons/python.svg" title="Python">
+                    <img id="skill-cpp" src="images/icons/cpp.svg" title="C++">
+                    <img id="skill-tensorflow" src="images/icons/tensorflow.svg" title="Tensorflow">
+                </div>
+            </div>
+            <div class="skills-box">
+                <h3>Frontend</h3>
+                <div class="skills-list">
+                    <img id="skill-html5" src="images/icons/html5.svg" title="Html5">
+                    <img id="skill-css3" src="images/icons/css3.svg" title="Css3">
+                    <img id="skill-javascript" src="images/icons/javascript.svg" title="Javascript">
+                </div>
+            </div>
+            <div class="skills-box">
+                <h3>Devops</h3>
+                <div class="skills-list">
+                    <img id="skill-git" src="images/icons/git.svg" title="Git">
+                    <img id="skill-docker" src="images/icons/docker.svg" title="Docker">
+                </div>
+            </div>
+            <div class="skills-box">
+                <h3>Database</h3>
+                <div class="skills-list">
+                    <img id="skill-mysql" src="images/icons/mysql.svg" title="PostgreSQL">
+                    <img id="skill-postgresql" src="images/icons/postgresql.svg" title="PostgreSQL">
+                    <img id="skill-influxdb" src="images/icons/influxdb.svg" title="PostgreSQL">
+                </div>
+            </div>
+            <div class="skills-box">
+                <h3>Tools</h3>
+                <div class="skills-list">
+                    <img id="skill-grafana" src="images/icons/grafana.svg" title="Grafana">
+                </div>
+            </div>
+        </div>
+        <div class="skills-info">
+            <img src="images/concepts.png" alt="Concepts">
+            <div class="info-box"><span id="info"></span></div>
+        </div>
+    </section>
+
+    <!-- projects section design -->
+    <section class="projects" id="projects">
+        <h2>Latest Projects</h2>
+
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Hardware Benchmark -->
+                <div class="swiper-slide">
+                    <img src="images/benchmark.png" alt="">
+                    <div class="swiper-box">
+                        <a href="https://github.com/aryelsoares/hardware-benchmark"><i class="fa fa-external-link"></i> Hardware Benchmark</a>
+                        <p>Observability system for real-time monitoring of hardware resources as CPU, GPU and RAM.</p>
+                        <div class="skills-img">
+                            <img src="images/icons/cpp.svg" title="C++">
+                            <img src="images/icons/influxdb.svg" title="InfluxDB">
+                            <img src="images/icons/grafana.svg" title="Grafana">
+                            <img src="images/icons/docker.svg" title="Docker">
+                        </div>
+                    </div>
+                </div>
+                <!-- Supermarket Sales -->
+                <div class="swiper-slide">
+                    <img src="images/market.png" alt="">
+                    <div class="swiper-box">
+                        <a href="https://github.com/aryelsoares/supermarket-sales"><i class="fa fa-external-link"></i> Supermarket Sales</a>
+                        <p>Develop a database from CSV file related to supermarket branch sales and perform general analysis of the data.</p>
+                        <div class="skills-img">
+                            <img src="images/icons/python.svg" title="Python">
+                            <img src="images/icons/mysql.svg" title="MySQL">
+                        </div>
+                    </div>
+                </div>
+                <!-- Bitcoin Prediction -->
+                <div class="swiper-slide">
+                    <img src="images/bitcoin.png" alt="">
+                    <div class="swiper-box">
+                        <a href="https://github.com/aryelsoares/bitcoin-prediction"><i class="fa fa-external-link"></i> Bitcoin Prediction</a>
+                        <p>Analyze the daily value of bitcoin in dollars over the last 5 years and compare deep learning models in forecasting the next 30 days.</p>
+                        <div class="skills-img">
+                            <img src="images/icons/python.svg" title="Python">
+                            <img src="images/icons/tensorflow.svg" title="Tensorflow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Button navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <a href="https://github.com/aryelsoares?tab=repositories" class="btn" title="Check all projects in github"><i class="fa fa-github" aria-hidden="true"></i> Github Repository</a>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact Form</h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Your Name" id="name" class="item" autocomplete="off" maxlength="30" minlength="3" required>
+                <input type="email" placeholder="Email Address" id="email" class="item" autocomplete="off" maxlength="30" minlength="10" required>
+            </div>
+            <div class="input-box-large">
+                <input type="text" placeholder="Subject" id="subject" class="item" autocomplete="off" maxlength="60" minlength="5" required>
+            </div>
+            <div id="message"></div>
+            <div class="output">
+                <button type="submit" class="btn" title="Send Message to Aryel"><i class="fa fa-paper-plane" aria-hidden="true"></i> Send Message</button>
+                <button type="reset" class="btn" title="Clear all inputs"><i class="fa fa-eraser" aria-hidden="true"></i> Reset</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <p>Copyright &copy; 2024 by Aryel | MIT License.</p>
+    </footer>
+
+    <!-- SwiperJS JavaScript -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Working contact form -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!-- Sweet Alert 2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.6/dist/sweetalert2.all.min.js"></script>
+
+    <!-- Typed JS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

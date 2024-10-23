@@ -1,0 +1,37 @@
+{
+    "skill-python": 
+      "<span style=\"color: #AAFFFF;\"><h3>Python: Programming Language</h3></span><br><span style=\"color: #DDFFFF;\"><h4>Used in data science and machine learning.</h4></span><br>The language I have the most affinity with for working with data and process automation in general. I use various libraries like numpy, pandas and scikit-learn for statistics and AI models.",
+    
+    "skill-cpp": 
+      "<span style=\"color: #AAFFFF;\"><h3>C++: Programming Language</h3></span><br><span style=\"color: #DDFFFF;\"><h4>Used to work with code abstraction.</h4></span><br>Essential when performance is a crucial factor in developing libraries or applying algorithms using interoperability. Also relevant in creating artificial intelligence models.",
+    
+    "skill-tensorflow":
+      "<span style=\"color: #AAFFFF;\"><h3>Tensorflow: Framework</h3></span><br><span style=\"color: #DDFFFF;\"><h4>Used in AI modeling with Python.</h4></span><br>Application of deep learning models such as sequential neural networks and generative AI. Useful for forecasting time series and data generation with models like LSTM, GRU and GAN.",
+    
+    "skill-html5":
+      "<span style=\"color: #AAFFFF;\"><h3>Html5: Standard Markup Language</h3></span><br><span style=\"color: #DDFFFF;\"><h4>Used to structure content on the web.</h4></span><br>It's used to create the entire initial structure of a simple page. It consists of a series of elements, represented by tags, which are used to define the structure and content of a web page.",
+
+    "skill-css3":
+      "<span style=\"color: #AAFFFF;\"><h3>Css3: Style Sheet Language</h3></span><br><span style=\"color: #DDFFFF;\"><h4>Used to stylize web pages</h4></span><br>After the structure of a page is created with HTML, it's possible to control the presentation and layout of the page with this language.",
+
+    "skill-javascript":
+      "<span style=\"color: #AAFFFF;\"><h3>Javascript: Programming Language</h3></span><br><span style=\"color: #DDFFFF;\"><h4>Used for client-side scripting on the web.</h4></span><br>Allows interactive and responsive web pages, web applications, and mobile applications, like what you're reading right now. In projects more focused on the frontend, it's common to see the combination of HTML, CSS and JavaScript languages to structure, style and add events to web pages.",
+
+    "skill-git":
+      "<span style=\"color: #AAFFFF;\"><h3>Git: Version Control System</h3></span><br><span style=\"color: #DDFFFF;\"><h4>Used to manage project updates</h4></span><br>This is one of the most important Devops tools for project management. All the projects I do are organized with these tools and inserted or updated in Github's repository.",
+
+    "skill-docker":
+      "<span style=\"color: #AAFFFF;\"><h3>Docker: Container Application Development</h3></span><br><span style=\"color: #DDFFFF;\"><h4>Software management in isolated environment</h4></span><br>It allows you to automate processes so that other users can execute projects without the need for manual management of resources such as dependency installations and configurations. I use docker-compose to manage multiple software in the same environment.",
+
+    "skill-mysql":
+      "<span style=\"color: #AAFFFF;\"><h3>MySQL: SQL Database</h3></span><br><span style=\"color: #DDFFFF;\"><h4>Used for managing and retrieving data.</h4></span><br>Commonly used in web applications, as well as in enterprise environments for data storage and management. Very useful for developing schemas to create normalized databases with MySQL Workbench.",
+
+    "skill-postgresql":
+      "<span style=\"color: #AAFFFF;\"><h3>PostgreSQL: SQL Database</h3></span><br><span style=\"color: #DDFFFF;\"><h4>Used to store and scale data workloads.</h4></span><br>One of the most advanced databases on the market for working with SQL. This is the bank I'm most familiar with for storing and managing data without the need for a graphical interface.",
+
+    "skill-influxdb":
+      "<span style=\"color: #AAFFFF;\"><h3>InfluxDB: Time Series Database</h3></span><br><span style=\"color: #DDFFFF;\"><h4>Used for real-time data handling</h4></span><br>Efficient for storing and querying datasets that have temporal dependency. It's a NoSQL database that uses the Influx language to make queries, in addition to its structure being composed of measurements, series and points.",
+
+    "skill-grafana":
+      "<span style=\"color: #AAFFFF;\"><h3>Grafana: Dashboards Web Application</h3></span><br><span style=\"color: #DDFFFF;\"><h4>Used for observability and data visualization</h4></span><br>This is my main tool for building interactive graphics for statistical or dynamic data analysis. It's generally used to monitor data behavior in real time for decision making. It supports most databases used on the market."
+}
