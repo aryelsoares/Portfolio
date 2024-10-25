@@ -83,9 +83,8 @@ let quill = new Quill('#message', {
     theme: 'snow',
     modules: {
         toolbar: [
-            [{'font': []}, {'size': ['small', false, 'large', 'huge']}],
-            ['bold', 'italic', 'underline', 'strike'],
-            [{'color': []}, {'background': []}],
+            [{'size': ['small', false, 'large', 'huge']}],
+            ['bold', 'italic', {'color': []}, {'background': []}],
             [{'list': 'ordered'}, {'list': 'bullet'}],
             ['link']
         ]
